@@ -1,0 +1,188 @@
+{
+  "selected_model": "Logistic Regression",
+  "trained_at": "2026-10-15 20:00:05 UTC",
+  "dataset_size": 4000,
+  "train_samples": 3200,
+  "test_samples": 800,
+  "vocab_size": 10000,
+  "primary_metrics": {
+    "accuracy": 0.9938,
+    "precision": 0.9901,
+    "recall": 0.9975,
+    "f1": 0.9938,
+    "roc_auc": 0.9999,
+    "confusion_matrix": [
+      [
+        396,
+        4
+      ],
+      [
+        1,
+        399
+      ]
+    ]
+  },
+  "models_comparison": {
+    "logistic_regression": {
+      "accuracy": 0.9938,
+      "precision": 0.9901,
+      "recall": 0.9975,
+      "f1": 0.9938,
+      "roc_auc": 0.9999,
+      "confusion_matrix": [
+        [
+          396,
+          4
+        ],
+        [
+          1,
+          399
+        ]
+      ]
+    },
+    "naive_bayes": {
+      "accuracy": 0.9862,
+      "precision": 0.9899,
+      "recall": 0.9825,
+      "f1": 0.9862,
+      "roc_auc": 0.9991,
+      "confusion_matrix": [
+        [
+          396,
+          4
+        ],
+        [
+          7,
+          393
+        ]
+      ]
+    }
+  },
+  "top_features": {
+    "reliable_indicators": [
+      {
+        "word": "reuters",
+        "weight": 5.188
+      },
+      {
+        "word": "said",
+        "weight": 3.555
+      },
+      {
+        "word": "washington reuters",
+        "weight": 3.368
+      },
+      {
+        "word": "president donald",
+        "weight": 3.191
+      },
+      {
+        "word": "washington",
+        "weight": 3.109
+      },
+      {
+        "word": "tax",
+        "weight": 2.142
+      },
+      {
+        "word": "reuters president",
+        "weight": 1.872
+      },
+      {
+        "word": "republican",
+        "weight": 1.799
+      },
+      {
+        "word": "wednesday",
+        "weight": 1.63
+      },
+      {
+        "word": "tuesday",
+        "weight": 1.608
+      },
+      {
+        "word": "thursday",
+        "weight": 1.53
+      },
+      {
+        "word": "senate",
+        "weight": 1.506
+      },
+      {
+        "word": "friday",
+        "weight": 1.463
+      },
+      {
+        "word": "democratic",
+        "weight": 1.384
+      },
+      {
+        "word": "federal",
+        "weight": 1.37
+      }
+    ],
+    "unreliable_indicators": [
+      {
+        "word": "image",
+        "weight": 3.839
+      },
+      {
+        "word": "featured",
+        "weight": 3.66
+      },
+      {
+        "word": "featured image",
+        "weight": 3.617
+      },
+      {
+        "word": "getty",
+        "weight": 3.601
+      },
+      {
+        "word": "images",
+        "weight": 3.594
+      },
+      {
+        "word": "getty images",
+        "weight": 3.573
+      },
+      {
+        "word": "just",
+        "weight": 3.485
+      },
+      {
+        "word": "video",
+        "weight": 2.489
+      },
+      {
+        "word": "like",
+        "weight": 2.134
+      },
+      {
+        "word": "gop",
+        "weight": 2.054
+      },
+      {
+        "word": "watch",
+        "weight": 1.967
+      },
+      {
+        "word": "fact",
+        "weight": 1.89
+      },
+      {
+        "word": "know",
+        "weight": 1.74
+      },
+      {
+        "word": "trump",
+        "weight": 1.721
+      },
+      {
+        "word": "twitter com",
+        "weight": 1.675
+      }
+    ]
+  },
+  "duration_seconds": 6.16
+}
