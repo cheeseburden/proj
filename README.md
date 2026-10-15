@@ -74,22 +74,27 @@ print("Path to dataset files:", path)
 
 ## 🚀 Quickstart: One-Command Startup (Docker)
 
-Ensure **Docker Desktop** is running, then launch the entire pipeline with a single command:
+Ensure **Docker Desktop** is running, then clone and run:
 
-### Windows:
-```cmd
-run.bat
+```bash
+# 1. Clone the repository
+git clone https://github.com/cheeseburden/proj.git
+
+# 2. IMPORTANT: Navigate into the project folder
+cd proj
 ```
-*or using Docker Compose directly:*
-```cmd
+
+Then start the pipeline with a single command:
+
+### Option A — One-Click Scripts:
+- **Windows**: Double-click or run `run.bat`
+- **Linux / macOS**: Run `chmod +x run.sh && ./run.sh`
+
+### Option B — Direct Docker Compose:
+```bash
 docker compose up --build -d
 ```
-
-### Linux / macOS:
-```bash
-chmod +x run.sh
-./run.sh
-```
+*(or `docker-compose up --build -d` on older systems)*
 
 ---
 

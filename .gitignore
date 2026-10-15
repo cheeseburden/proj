@@ -15,8 +15,10 @@ dist/
 *.egg-info/
 
 # Data & Models cache (raw 100MB+ datasets)
-data/raw/
-data/hdfs_buffer/
+data/raw/*
+!data/raw/.gitkeep
+data/hdfs_buffer/*
+!data/hdfs_buffer/.gitkeep
 *.archive
 *.tar.gz
 *.zip
